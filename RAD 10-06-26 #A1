@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main{
+       public static void main(String[] args){
+           Scanner scanner = new Scanner(System.in);
+
+System.out.println("What is your name? ");
+           String name = scanner.nextLine();
+System.out.print("What is your age? ");
+           int age = Integer.parseInt(scanner.nextLine());
+System.out.println("Where do you live?");
+           String adress = scanner.nextLine();
+System.out.print("What is your Weight?");
+           double weight = scanner.nextDouble();
+System.out.print("What is your height?");
+           double height = scanner.nextDouble();
+           
+System.out.println("\n------INTRO CARD------");
+System.out.println("Hi! my name is ," + name + "and I am " + age + "years old I live in" + adress + "My Weight is" + weight + "My height is" + height + ",");
+         scanner.close();
+       }
+  }
